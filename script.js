@@ -163,6 +163,7 @@ expenseList.addEventListener('click', function(event) {
     }    
 })
 
+//limpa os valores do formulário e volta o foco para o campo de despesa 
 function formClear() {
     //reseta o valor dos inputs
     amount.value = '';
